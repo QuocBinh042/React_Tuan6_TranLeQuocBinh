@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button, StyleSheet, Image, Alert, TouchableOpacity } from 'react-native';
-import Icon from 'react-native-vector-icons/FontAwesome'; // Thêm icon FontAwesome nếu bạn đang dùng
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 export default function Screen1({ navigation }) {
     const users = [
@@ -36,7 +36,7 @@ export default function Screen1({ navigation }) {
 
             {/* Logo */}
             <Image
-                source={require('../assets/Data/icon.png')} // Đảm bảo đường dẫn ảnh icon.png đúng
+                source={require('../assets/Data/icon.png')}
                 style={styles.logo}
             />
 
